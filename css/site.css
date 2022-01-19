@@ -11,7 +11,7 @@ header {
 }
 
 .nav {
-    height: 82px;
+    height: 120px
 }
 
 ul{
@@ -46,55 +46,58 @@ li a:hover{
 
 }
 
-.container{
-    padding: 60px;
-    height: 100%;
-    display:;
-    text-align: center;
-}
-.container img{
-
-    height: 50%;
-    width: 60%;
-}
-.classeh{
-    background-color: #2690cf;
-    color: whitesmoke;
-    float:left;
-    
-    font-size: 23pt;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    position:relative;
-    width: 20%;
-    margin-left: 370px;
-    margin-top: -350px !important;
-    text-align: center;
-
-}
-
-    
 
 
 
 
 
-#solucao {
-        
-        height: min-content 150px;
-        background-color:#ffffff;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-h1{
-    font-size: 60px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #ffffff;
-    text-align:left;
-}    
 
 
 
 
-
+ /* fim da nav */ 
  
 
+ #propaganda2 {
+     
+    color: white;
+    height: 180px;
+    padding-left: 10px;
+    padding-top: 30px;
+ }
+ #propaganda2 a {
+     padding: 25px;
+ }
 
+ #propaganda2 h1{
+     padding-top: 30px;
+ }
+
+.btnpropaganda1 {
+    justify-content: space-between;
+  
+}
+.btnpropaganda1 {
+    box-shadow:inset 0px 2px 0px 0px #bbdaf7;
+    background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+    background-color:#79bbff;
+    border-radius:39px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:28px;
+    font-weight:bold;
+    padding:16px 76px;
+    text-decoration:none;
+    text-shadow:0px 5px 17px #528ecc;
+}
+.btnpropaganda1:hover {
+    background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+    background-color:#378de5;
+}
+.btnpropaganda1:active {
+    position:relative;
+    top:1px;
+
+}
