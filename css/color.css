@@ -1,8 +1,8 @@
 .bg-white{
     background-color: #ffffff;
 }
-.white{
-    color:#ffffff;
+.navbar-light{
+    color:#ffffff !important;
 }
 
 .bg-blue{

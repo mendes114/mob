@@ -1,62 +1,65 @@
-
+html body header { font-family: 'Roboto', sans-serif
+    ;}
 header {
     background-color: #ffffffff
 }
 
 /*menu de nav*/
 
+.navigation-wrap{
+    position:fixed;
+    width:100%;
+    
+    -webkit-transition:all 0.3s ease-out;
+    transition:all 0.3s ease-out;
+  }
+  .navigation-wrap .nav-item{
+    
+    padding:0 ;
+    transition:all 0.3s linear;
+  } 
+  .navbar-toggler:focus{
+    outline:unset;
+    border:unset;
+    box-shadow: none;
+  }
+  .nav-link{
+      padding: 45px;
+    
+    align-items;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    color:var(--white-color);
+    letter-spacing:.7px;
+  }
+  .nav-link:hover,
+  .nav-link.active{
+    color: blue !important;
+  }
+  .navigation-wrap {
+    padding: 45px;
+    box-shadow: none;
+   left: -;
+t
+    
+  }
 
-.menu1 {
-    text-align: center;
-}
+  .navbar-expand .navbar-collapse {
+      right: 1000px;
+  }
 
-.nav {
-    height: 120px
-}
-
-ul{
-    margin:-40px auto;
-    width: 1000px;
-    height: 50px;
-    list-style: none;
-    background: transparent;
-
-}
-
-li{
-    margin-top: 32px;
-    display: inline-block;
- 
-}
-
-li a {
-    text-decoration: none;
-    color: #000000;
-    text-transform:uppercase;
-    font-family: 'Roboto';
-    font-size: 15px;
-    transition: 0.5s;
-    padding: 25px 30px;
-}
-li a:hover{
-
-    transition: 0.5s;
-    color: #2690cf;
-    background: transparent;
-
-}
-
-
-
-
-
-
+  .nav-item {
+      padding: 45px
+  }
 
 
 
 
  /* fim da nav */ 
- 
+ #propaganda1 {
+     padding-top: ;
+ }
 
  #propaganda2 {
      
@@ -99,5 +102,33 @@ li a:hover{
 .btnpropaganda1:active {
     position:relative;
     top:1px;
+
+}
+
+/* * area social css */
+
+
+/* Style the container with a rounded border, grey background and some padding and margin */
+.testimonial {
+
+    display: table;
+    border: 2px solid rgb(0, 160, 247);
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0;
+  
+  }
+  
+  /* Float images inside the container to the left. Add a right margin, and style the image as a circle */
+  .testimonial img {
+    padding: 0px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+
+  
 
 }
