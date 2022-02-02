@@ -1,12 +1,4 @@
-/*
-Template Name: Bizfinity
-Author: GrayGrids
-*/
 
-/*--------------------------------------------------------------
-# Normalize
---------------------------------------------------------------*/
-html {
 	font-family: 'Poppins', sans-serif;
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
@@ -431,7 +423,16 @@ big {
 .section-title h2 {
 	font-size: 37px;
 	margin-bottom: 18px;
-	text-transform: capitalize;
+	text-transform:none ;
+	position: relative;
+	color: #333;
+	font-weight: 700;
+	padding-bottom: 14px;
+}
+.section-title2 h2 {
+	font-size: 37px;
+	margin-bottom: 5px;
+	text-transform:none ;
 	position: relative;
 	color: #333;
 	font-weight: 700;

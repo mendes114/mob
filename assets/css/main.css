@@ -1,11 +1,4 @@
-/*
-Template Name: Bizfinity
-Author: GrayGrids
-*/
 
-/*===========================
-    01.COMMON css 
-===========================*/
 @import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Sen:wght@400;700;800&display=swap");
 
 html {
@@ -1722,11 +1715,12 @@ p {
 ===============================*/
 .services {
   background: #F9FAFF;
-  padding-bottom: 85px;
+  padding-bottom:
 }
 
 .services .section-title {
-  margin-bottom: 65px;
+  margin-bottom: 10px;
+  margin-top: ;
 }
 
 .services .single-service {
@@ -1747,14 +1741,17 @@ p {
 .services .single-service .serial span {
   font-size: 30px;
   position: absolute;
-  left: 40px;
-  top: 40px;
+  left: 245px;
+  top: 35px;
+  padding-top: 3px;
+  padding-left: 3px;
   height: 65px;
   width: 65px;
   line-height: 65px;
   text-align: center;
-  background: #74b9ff;
-  color: 4F#3E5F;
+  background: url('/assets/images/');
+  background-color: #258fce !important;
+  color: #ffffff;
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
   transition: all 0.4s ease;
@@ -1768,10 +1765,14 @@ p {
 
 .services .single-service:hover .serial span {
   border-color: transparent;
-  background: #fff;
-  color: #258fce;
+  background: rgb(226, 20, 20);
+  color: #fffefe;
   border-radius: 50%;
 }
+
+
+
+
 
 .services .single-service h3 a {
   color: #333;
@@ -1831,19 +1832,7 @@ p {
   position: relative;
 }
 
-.services .single-service .content h4:before {
-  position: absolute;
-  content: "";
-  left: 0;
-  bottom: 0;
-  height: 3px;
-  width: 80px;
-  background: #3E54FF;
-  z-index: 1;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
+
 
 .services .single-service:hover .content h4:before {
   width: 110px;
@@ -1929,6 +1918,7 @@ p {
 
 .pricing-table .single-table .title {
   font-size: 23px;
+  padding-top: 100px;
   font-weight: 600;
   line-height: 26px;
 }
@@ -1943,17 +1933,18 @@ p {
 }
 
 .pricing-table .single-table .price {
-  height: 120px;
-  width: 120px;
+  height: 130px;
+  width: 130px;
   display: inline-block;
-  border: 1px dashed #74b9ff;
+  border: 1px dashed #666666;
   border-radius: 50%;
-  margin: 20px 0;
+  
+ padding-top: 10px;
 }
 
 .pricing-table .single-table .amount {
   position: relative;
-  color: #333;
+  color: rgb(242, 100, 6);
   font-size: 35px;
   display: inline-block;
   margin: 45px 0;
@@ -1962,7 +1953,7 @@ p {
 
 .pricing-table .single-table .curency {
   color: #555;
-  font-size: 17px;
+  font-size: 12px;
   font-weight: 400;
   position: absolute;
   left: -14px;
@@ -1974,8 +1965,10 @@ p {
   font-size: 11px;
   font-weight: 400;
   position: absolute;
-  right: -25px;
-  bottom: -6px;
+  right: 0px;
+ 
+  bottom: 22px;
+  right: 5px;
 }
 
 /* Table List */
@@ -2021,7 +2014,7 @@ p {
 .client-logo-section .client-logo-wrapper .client-logo-carousel .client-logo img {
   max-width: 220px;
   width: 140px;
-  opacity: .4;
+  opacity: .5;
   -webkit-transition: all .3s ease-out 0s;
   transition: all .3s ease-out 0s
 }
@@ -2426,9 +2419,12 @@ p {
 
 
 .free-version-banner {
+  height: 250px;
+ 
   position: relative;
-  background: #3e54ff;
+  background: #258fce;
   background-image: url('../images/pattern.png');
+  padding-top: ;
 }
 
 .free-version-banner .section-title {
@@ -2438,17 +2434,17 @@ p {
 }
 
 .free-version-banner .section-title span {
-  margin-bottom: 15px;
+  margin-bottom: px;
   background-color: #fff;
-  color: #3e54ff !important;
+  color: #258fce !important;
 }
-
+/* 
 .free-version-banner .section-title h2 {
   padding-bottom: 20px;
   margin-bottom: 25px;
   font-weight: 700;
   line-height: 50px;
-  font-size: 35px;
+  font-size: 35px; */
 }
 
 .free-version-banner .section-title h2::before {
@@ -2457,18 +2453,20 @@ p {
   line-height: 55px !important;
 }
 
-.free-version-banner .button {
+.free-version-banner .button  {
   z-index: 5;
-  float: right;
+  float: right !important;
 }
 
 .free-version-banner .button .btn {
-  background-color: #fff;
-  color: #3e54ff;
+  font-size: 25px;
+  background-color: rgb(255, 255, 255);
+  color: #258fce;
 }
 
 .free-version-banner .button .btn:hover {
   color: #fff;
+  background-color: #2590ce00;
 }
 
 .free-version-banner .button .btn .dir-part {
