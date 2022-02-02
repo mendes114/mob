@@ -1405,7 +1405,7 @@ p {
   content: "";
   right: 0;
   width: 50%;
-  background-image: url(../images/gallery1.jpg);
+  background-image: url(../images/family1.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1547,6 +1547,7 @@ p {
 .Features .feature-content {
   padding-left: 50px;
   padding-bottom: 30px;
+  
 }
 
 .Features .feature-content .title {
@@ -1557,7 +1558,7 @@ p {
   text-transform: capitalize;
   font-size: 14px;
   display: inline-block;
-  background: #3e54ff;
+  background: #258fce;
   color: #fff;
   padding: 4px 18px;
   margin-bottom: 5px;
@@ -1581,14 +1582,16 @@ p {
 }
 
 .Features .feature-item .feature-thumb {
-  height: 55px;
-  width: 55px;
-  background: url(../images/feature-icon-bg.png) no-repeat center center;
+  height: 65px;
+  width: 65px;
+  background: url(../images/favicon.png) no-repeat center center;
   background-size: contain;
-  font-size: 23px;
+  font-size: 20px;
   line-height: 55px;
   text-align: center;
-  color: #ffffff;
+  padding-top: 7px;
+  padding-left: 3px;
+  color: ;
   display: inline-block;
   position: absolute;
   left: 0;
@@ -1614,12 +1617,13 @@ p {
   font-weight: 400;
   font-size: 14px;
   display: block;
-  margin-top: 6px;
+ 
 }
 
 .feature-right {
   position: relative;
-  background-image: url('../images/feature-image.jpg');
+  opacity: ;
+  background-image: url('../images/business2.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
@@ -1660,7 +1664,7 @@ p {
 }
 
 .feature-right .video-head .video:hover {
-  background: #3E54FF;
+  background: #258fce;
   color: #fff;
 }
 
@@ -1668,7 +1672,7 @@ p {
   height: 80px;
   width: 80px;
   background: #fff;
-  color: #3E54FF;
+  color: #258fce ;
   text-align: center;
   line-height: 84px;
   border-radius: 50%;
@@ -1750,7 +1754,7 @@ p {
   line-height: 65px;
   text-align: center;
   background: #74b9ff;
-  color: #3E54FF;
+  color: 4F#3E5F;
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
   transition: all 0.4s ease;
@@ -1759,13 +1763,13 @@ p {
 }
 
 .services .single-service:hover {
-  background: #3E54FF;
+  background: #258fce;
 }
 
 .services .single-service:hover .serial span {
   border-color: transparent;
   background: #fff;
-  color: #3E54FF;
+  color: #258fce;
   border-radius: 50%;
 }
 
@@ -2000,6 +2004,10 @@ p {
 ========================================*/
 
 .client-logo-section {
+  background: #F9FAFF;
+  margin: 0px;
+}
+.client-logo-section2 {
   background: #F9FAFF;
   margin: 0px;
 }
