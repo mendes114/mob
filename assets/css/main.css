@@ -491,18 +491,9 @@ p {
   }
 }
 
-.navbar-nav .nav-item a.dd-menu::after {
-  content: "\ea58";
-  font: normal normal normal 1em/1 "LineIcons";
-  position: absolute;
-  right: 17px;
-  font-size: 10px;
-  top: 50%;
-  margin-left: 5px;
-  margin-top: 0px;
-  transition: all 0.3s ease-out 0s;
-  height: 10px;
-  margin-top: -5px;
+.service-icon {
+  padding-left: 9px;
+}
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -534,7 +525,7 @@ p {
 }
 
 .navbar-nav .nav-item:hover>.sub-menu .sub-menu {
-  left: 100%;
+  left: ;
   top: 0;
 }
 
@@ -955,6 +946,13 @@ p {
 /*=============================
 	04. Start Services CSS
 ===============================*/
+
+.services-start {
+  padding-bottom: 0px;
+  padding-top: 20px;
+}
+
+
 .services {
   background: #F9FAFF;
   padding-bottom:
@@ -1006,8 +1004,8 @@ p {
 }
 
 .services .single-service:hover .serial span {
-  border-color: transparent;
-  background: rgb(226, 20, 20);
+  border-color:;
+  background: rgb(130, 50, 50);
   color: #fffefe;
   border-radius: 50%;
 }
@@ -1119,6 +1117,11 @@ p {
   background: #3E54FF;
 }
 
+.cotacao-btn {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 /*=============================
   End Service CSS
 ===============================*/
@@ -1154,13 +1157,21 @@ p {
   font-size: 13px;
   transform: rotate(45deg);
 }
+.partner-img {
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 20px;
 
+  padding-left: 20px;
+  padding-right: 20px;
+}
 /* Table Head */
 .pricing-table .single-table .table-head {}
 
 .pricing-table .single-table .title {
   font-size: 23px;
-  padding-top: 100px;
+  padding-top: 0px;
+  padding-bottom: 20px;
   font-weight: 600;
   line-height: 26px;
 }
@@ -1180,13 +1191,14 @@ p {
   display: inline-block;
   border: 1px dashed #666666;
   border-radius: 50%;
+  margin-bottom: 20px;
   
  padding-top: 10px;
 }
 
 .pricing-table .single-table .amount {
   position: relative;
-  color: rgb(242, 100, 6);
+  color: #444444;
   font-size: 35px;
   display: inline-block;
   margin: 45px 0;
@@ -1195,11 +1207,11 @@ p {
 
 .pricing-table .single-table .curency {
   color: #555;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 400;
   position: absolute;
-  left: -14px;
-  top: -7px;
+  left: px;
+  top: -20px;
 }
 
 .pricing-table .single-table .duration {
