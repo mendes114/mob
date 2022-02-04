@@ -8,7 +8,7 @@
 }
 
 /* Tablet Screen */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width:819px) {
 	.section {
 		padding: 60px 0px;
 	}
@@ -266,30 +266,7 @@
 		padding: 0;
 	}
 
-	.mail-success .success-image {
-		text-align: center;
-	}
-
-	.mail-success .success-image img {
-		width: 60%;
-		float: none;
-		text-align: center;
-		display: inline-block;
-	}
-
-	.mail-success .success-text {
-		text-align: center;
-		padding: 0;
-		margin-top: 50px;
-	}
-
-	.mail-success .success-text p {
-		color: #333;
-		font-weight: 400;
-		line-height: 24px;
-		font-size: 14px;
-		padding: 0;
-	}
+	
 
 	.post-details .post-meta li {
 		margin-bottom: 8px;
@@ -621,7 +598,7 @@
 		background: #fff;
 		padding: 40px 40px;
 		box-shadow: 0px 0px 35px #0000000d;
-		border-top: 10px solid #3e54ff;
+		border-top: 10px solid #258fe;
 		padding-bottom: 50px;
 		margin-top: 40px;
 	}
@@ -741,50 +718,7 @@
 		font-size: 14px;
 	}
 
-	.latest-news-area .section-title {
-		margin-bottom: 40px;
-	}
 
-	.latest-news-area {
-		padding-bottom: 30px;
-	}
-
-	.latest-news-area .letest-news-item {
-		margin: 0;
-		padding: 0;
-	}
-
-	.latest-news-area .letest-news-item {
-		padding-top: 0;
-		margin-bottom: 30px;
-	}
-
-	.newsletter {
-		text-align: center;
-	}
-
-	.newsletter .subscribe-text {
-		margin-bottom: 30px;
-	}
-
-	.newsletter .common-input {
-		width: 100%;
-	}
-
-	.newsletter .button {
-		display: inline-block;
-		width: 100%;
-		margin: 0;
-		margin-top: 15px;
-	}
-
-	.newsletter .button .btn {
-		width: 100%;
-		margin: 0;
-	}
-
-	.newsletter .subscribe-text h6 {
-		line-height: 38px;
 	}
 
 	.error-page .error-image {
