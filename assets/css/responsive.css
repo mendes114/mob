@@ -8,9 +8,13 @@
 }
 
 /* Tablet Screen */
-@media only screen and (min-width: 768px) and (max-width:819px) {
+@media only screen and (min-width: 768px) and (max-width:991px) {
+
+
+
+
 	.section {
-		padding: 60px 0px;
+		padding: 40px 0px;
 	}
 
 
@@ -37,6 +41,10 @@
 		font-size: 13px;
 	}
 
+	.section-title2 {
+		text-align: center;
+	}
+	
 	.breadcrumbs {
 		padding: 50px 0;
 	}
@@ -88,6 +96,7 @@
 	}
 
 	.hero-slider .tns-nav {
+		background-color: rgba(255, 255, 255, 0);
 		border-radius: 3px;
 		top: 20px;
 		height: 40px;
@@ -137,7 +146,18 @@
 	.services .section-title {
 		margin-bottom: 40px;
 	}
+	.services .single-service .serial span {
 
+	line-height: 65px;
+	text-align: center;
+	background-color: #258fce !important;
+	color: #ffffff;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	background: #3E54FF0f;
+	border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+	}
 	.call-action .section-title {
 		margin-top: 90px;
 		padding-right: 20px;
@@ -357,6 +377,7 @@
 	}
 
 	.footer .single-footer {
+		
 		margin-top: 30px;
 	}
 
@@ -366,8 +387,14 @@
 /* Mobile Screen */
 @media only screen and (max-width: 767px) {
 
+
+	.navbar { 
+		margin-bottom: 20px;
+		justify-content: start !important;}
+
+
 	.header .header-inner {
-		padding: 20px 0;
+		padding: px 0;
 	}
 
 	.section {
@@ -403,6 +430,13 @@
 		font-size: 13px;
 	}
 
+	.section-title2 {
+		text-align: center;
+	}
+	.section-title2 h2 {
+		font-size: 28px;
+	}
+
 	.pagination {
 		margin: 40px 0 30px 0;
 		display: block;
@@ -410,6 +444,15 @@
 
 	.breadcrumbs {
 		padding: 50px 0;
+	}
+
+	.free-version-banner .button .btn {
+		margin-top:  30px;
+		left: 160px;
+		font-size: 20px;
+		font-weight: ;
+		background-color: #258fce;
+		color: #ffffff;
 	}
 
 	.button .btn {
@@ -450,6 +493,7 @@
 	.breadcrumbs .breadcrumbs-content .breadcrumb-nav {
 		float: none;
 		text-align: center;
+
 	}
 
 	.breadcrumbs .breadcrumbs-content.right {
@@ -494,10 +538,13 @@
 		margin-bottom: 12px !important;
 	}
 
+	.logo-img img {
+		max-width: 80%;
+	}
 
 	.hero-slider .single-slider {
 		height: auto !important;
-		padding-bottom: 50px;
+		padding-bottom: px;
 	}
 
 	.hero-slider {
@@ -510,8 +557,10 @@
 
 	.hero-slider .hero-text {
 		float: none;
-		margin-top: 85px;
-	}
+		margin-top: 10px;
+		margin-left: 4px
+
+		}
 
 	.hero-slider .hero-text h1 {
 		font-size: 23px;
@@ -532,16 +581,21 @@
 
 	.hero-slider .home-slider {
 		position: relative;
+		background-color: #;
+		color: ;
 	}
 
 	.hero-slider .tns-nav {
-		border-radius: 3px;
-		top: 10px;
-		height: 35px;
-		line-height: 35px;
+		background-color: #ffffff85;
+	
+		border-radius: 4px;
+		top: -10px;
+		height: 15px;
+		line-height: ;
 		transform: none;
-		left: 10px;
-		padding: 0px 19px;
+		left: 25px;
+		padding-top: 0;
+		padding-bottom: 20px;
 		z-index: 5;
 	}
 
@@ -572,6 +626,23 @@
 		margin-bottom: 40px;
 	}
 
+	.services .single-service .serial span {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		line-height: 65px;
+		text-align: center;
+		background: url(/assets/images/);
+		background-color: #258fce !important;
+		color: #ffffff;
+		-webkit-transition: all 0.4s ease;
+		-moz-transition: all 0.4s ease;
+		transition: all 0.4s ease;
+		background: #3E54FF0f;
+		border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+	}
+
 	.call-action .section-title {
 		margin-top: 0;
 		padding-right: 20px;
@@ -597,39 +668,16 @@
 	.call-action .right-form {
 		background: #fff;
 		padding: 40px 40px;
-		box-shadow: 0px 0px 35px #0000000d;
+		box-shadow: 0px 0px 35px #dc09090d;
 		border-top: 10px solid #258fe;
 		padding-bottom: 50px;
 		margin-top: 40px;
 	}
 
-	.call-action .button {
-		text-align: center;
-	}
-
-	.call-action .section-heading h4 {
-		font-size: 22px;
-		font-weight: 700;
-	}
-
-	.portfolio-area {
-		padding: 50px 0;
-	}
-
-	.portfolio-area .section-title {
-		margin-bottom: 40px;
-	}
-
-	.portfolio-area .project-nav li {
-		margin-bottom: 8px;
-	}
-
-	.portfolio-area .project-nav li:last-child {
-		margin-bottom: 8px;
-	}
 
 	.pricing-table {
-		padding-bottom: 45px;
+		padding-top: 125px;
+		padding-bottom: 30px;
 	}
 
 	.pricing-table .section-title {
@@ -655,6 +703,12 @@
 		padding-bottom: 30px;
 		margin: 0 !important;
 		border: none;
+	}
+	.partner-img {
+		height: 130px
+		
+		;
+
 	}
 
 	.testimonials .single-testimonial .client1 {
@@ -802,15 +856,18 @@
 	}
 
 	.footer .f-about {
-		padding-right: 0;
-		margin-top: 0 !important;
+		align-items: center;
+		text-align: center;
 	}
 
 	.footer .logo {
+		justify-items: center;
 		margin-bottom: 12px;
 	}
 
 	.footer .logo img {
+		display: flex;
+		justify-content: center;
 		width: 250px;
 	}
 

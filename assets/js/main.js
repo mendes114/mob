@@ -35,6 +35,7 @@
 	})
 
 
+	
 	//======== tiny slider
 tns({
 		container: '.client-logo-carousel',
@@ -70,16 +71,16 @@ tns({
 		controls: false,
 		responsive: {
 			0: {
-				items: 1,
+				items: 3,
 			},
 			540: {
-				items: 2,
+				items: 3,
 			},
 			768: {
 				items: 3,
 			},
 			992: {
-				items: 6,
+				items: 7,
 			}
 		}
 	});

@@ -472,10 +472,9 @@ p {
     padding: 10px 0;
   }
 
-  .nav-inner {
-    padding: 25px 0;
+  
   }
-}
+
 
 .navbar-nav .nav-item a.active {
   color: #258fce;
@@ -885,8 +884,8 @@ p {
   color: #333;
   border-radius: 100%;
   display: inline-block;
-  font-size: 28px;
-  padding-left: 5px;
+  font-size: 30px;
+  
 }
 
 .feature-right .video-head .video:hover {
@@ -978,11 +977,16 @@ p {
   margin: 15px 0;
 }
 
+.services .single-service .serial {
+  display: flex;
+  margin-top: -80px;
+  margin-bottom: 40px;
+  justify-content: center;
+}
+
 .services .single-service .serial span {
   font-size: 30px;
-  position: absolute;
-  left: 245px;
-  top: 35px;
+
   padding-top: 3px;
   padding-left: 3px;
   height: 65px;
@@ -1398,7 +1402,7 @@ p {
 
 .footer .logo img {
   width: 300px;
-  margin-left: -23px;
+  
 }
 
 .footer .f-about {
@@ -1497,8 +1501,9 @@ p {
 }
 
 .footer .single-footer h3 {
-  color: #333;
-  font-size: 20px;
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  ;
   font-weight: 600;
   position: relative;
   text-transform: capitalize;
@@ -1581,23 +1586,18 @@ p {
 
 }
 
-.footer .custom-flex {
-  margin-right: -15px;
+.fa-play {
+  padding-left: 30px;
+}
 }
 
-.footer .custom-flex li {
-  width: calc(33.33% - 15px);
-  margin-bottom: 15px;
-  margin-right: 15px;
-}
-
-.footer .gallery ul {
-  margin-left: -10px;
+.single-footer .gallery  {
+  margin-left: 10px;
   overflow: hidden;
 }
 
 .footer .gallery ul li {
-  float: right;
+  float: left;
   margin: 10px 0 0 10px;
   padding: 0;
 }
@@ -1613,8 +1613,8 @@ p {
   top: 0;
   height: 100%;
   width: 100%;
-  background: #2590ce43;
-  opacity: .1;
+  background: #3E54FF;
+  opacity: 0;
   visibility: hidden;
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
@@ -1661,6 +1661,7 @@ p {
 .footer .gallery ul li img {
   width: 100px;
   height: 100px;
+}
 }
 
 .footer .footer-bottom {}
@@ -1747,3 +1748,80 @@ p {
   background-color: #2590ce00;
 }
 
+
+
+/* testimonial part */
+
+
+
+
+/*----------------------------*/
+
+.tour-desc {
+  border: #258FCE solid 0.5px;
+  box-shadow: 0 10px 30px rgba(111, 111, 111, 0.1);
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  padding-bottom: 30px;
+  padding-top: 45px;
+  box-shadow: 0 10px 30px rgba(111, 111, 111, 0.1);
+  overflow: hidden;
+}
+
+
+.home-testimonial{
+ 
+  padding-top: 200px;
+  margin-bottom: -100px;
+  font-family: 'Poppins';
+ 
+    
+}
+
+.home-testimonial h3{
+    color: var(--orange);
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase
+}
+.home-testimonial h2{
+    color: white;
+    font-size: 28px;
+    font-weight: 700
+}
+.testimonial-inner{
+    position: relative;
+    top: -174px
+}
+
+
+.testimonial-inner .tour-desc{
+    border-radius: 5px;
+    padding: 40px
+}
+.color-grey-3{
+    font-family: "Poppins", Sans-serif;
+    font-size: 14px;
+    color: #000000
+}
+.testimonial-inner img.tm-people{
+    width: 60px;
+    height: 60px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    max-width: none
+}
+.link-name{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    color: #6c83a2
+}
+.link-position{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 12px;
+    color: #6c83a2
+}
+ 
